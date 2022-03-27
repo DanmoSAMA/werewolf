@@ -29,20 +29,5 @@
     "lint-staged": "^12.3.7",
     "prettier": "^2.6.1",
     "typescript": "^4.6.3"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "src/**/*.{ts,tsx}": [
-      "eslint --cache --fix",
-      "git add"
-    ],
-    "src/**/*.{js,jsx}": [
-      "eslint --cache --fix",
-      "git add"
-    ]
   }
 }
