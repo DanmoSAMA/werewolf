@@ -1,9 +1,9 @@
 import SvgIcon from '@/components/SvgIcon/index'
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from 'react-router-dom'
 import './index.scss'
 
 function Home() {
-  const navigate = useNavigate();
+  const navigate = useNavigate()
 
   return (
     <div className={'home'}>
@@ -11,9 +11,7 @@ function Home() {
         <div className={'home-header-icon'}>
           <SvgIcon name="werewolf" />
         </div>
-        <div className={'home-header-title'}>
-          狼人杀
-        </div>
+        <div className={'home-header-title'}>狼人杀</div>
       </div>
       <div className={'home-body'}>
         <div className={'home-body-join_room'} onClick={() => navigate('/join')}>

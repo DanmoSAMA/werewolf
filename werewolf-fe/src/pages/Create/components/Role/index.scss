@@ -1,0 +1,25 @@
+.create-role-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 7rem;
+  height: 7rem;
+
+  & > .svg-icon {
+    font-size: 3.5rem;
+  }
+
+  &-counter {
+    & > .svg-icon {
+      cursor: pointer;
+    }
+
+    &-num {
+      display: inline-block;
+      margin-top: 0.5rem;
+      width: 3rem;
+      text-align: center;
+    }
+  }
+}

@@ -8,13 +8,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Navigate to="/home" replace />} />
         {routes.map((item, i) => {
-          return (
-            <Route
-              key={i}
-              path={item.path as string}
-              element={<item.element />}
-            />
-          )
+          return <Route key={i} path={item.path as string} element={<item.element />} />
         })}
       </Routes>
     </div>
