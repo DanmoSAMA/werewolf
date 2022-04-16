@@ -11,8 +11,13 @@
   }
 
   &-counter {
-    & > .svg-icon {
+    & .svg-icon {
       cursor: pointer;
+    }
+
+    &-left,
+    &-right {
+      display: inline-block;
     }
 
     &-num {
