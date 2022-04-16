@@ -7,6 +7,11 @@ const routesConfig: RouteConfig[] = [
     exact: true,
     element: loadable(() => import('@/pages/Home')),
   },
+  {
+    path: '/join',
+    exact: true,
+    element: loadable(() => import('@/pages/Join')),
+  },
 ]
 
 export default routesConfig

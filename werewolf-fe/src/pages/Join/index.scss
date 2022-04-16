@@ -1,0 +1,54 @@
+.join {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+
+  &-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+  }
+
+  &-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-room_id, &-passwd, &-nickname {
+      line-height: 2.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    &-input {
+      outline: none;
+      border: 2px solid #333;
+      border-radius: .3rem;
+      height: 2rem;
+      width: 10rem;
+      font-size: 1rem;
+      padding-left: .5rem;
+      padding-right: .5rem;
+    }
+
+    &-submit {
+      display: inline-block;
+      width: 5rem;
+      height: 2rem;
+      line-height: 2rem;
+      text-align: center;
+      margin-top: 1rem;
+      border: 2px solid #333;
+      border-radius: .3rem;
+      transition: all .3s;
+      cursor: pointer;
+    }
+
+    &-submit:hover {
+      background-color: #000;
+      color: #fff;
+    }
+  }
+}
