@@ -5,18 +5,23 @@ const routesConfig: RouteConfig[] = [
   {
     path: '/home',
     exact: true,
-    element: loadable(() => import('@/pages/Home')),
+    element: loadable(() => import('@/pages/Home'))
   },
   {
     path: '/join',
     exact: true,
-    element: loadable(() => import('@/pages/Join')),
+    element: loadable(() => import('@/pages/Join'))
   },
   {
     path: '/create',
     exact: true,
-    element: loadable(() => import('@/pages/Create')),
+    element: loadable(() => import('@/pages/Create'))
   },
+  {
+    path: '/lounge',
+    exact: true,
+    element: loadable(() => import('@/pages/Lounge'))
+  }
 ]
 
 export default routesConfig

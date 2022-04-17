@@ -1,6 +1,6 @@
 import SvgIcon from '@/components/SvgIcon/index'
 import './index.scss'
-import { setRoleCount } from '../../hooks/useRoleCount'
+import { useRoleCount } from '../../hooks/useRoleCount'
 
 type Props = {
   iconName: string
@@ -21,7 +21,7 @@ function Role(props: Props) {
     setVillagerCount,
     setWolfCount,
     setWitchCount
-  } = setRoleCount()
+  } = useRoleCount()
 
   function increase(iconName: string) {
     switch (iconName) {

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-export const setRoleCount = () => {
+export const useRoleCount = () => {
   const [defenderCount, setDefenderCount] = useState(1)
   const [hunterCount, setHunterCount] = useState(1)
   const [prophetCount, setProphetCount] = useState(1)
