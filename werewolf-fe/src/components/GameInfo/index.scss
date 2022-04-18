@@ -1,0 +1,22 @@
+.game_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &-icon {
+    font-size: 8rem;
+    width: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-title {
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3rem;
+    width: 12rem;
+    text-align: center;
+  }
+}

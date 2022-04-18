@@ -18,6 +18,16 @@ const routesConfig: RouteConfig[] = [
     element: loadable(() => import('@/pages/Create'))
   },
   {
+    path: '/user',
+    exact: true,
+    element: loadable(() => import('@/pages/User'))
+  },
+  {
+    path: '/rule',
+    exact: true,
+    element: loadable(() => import('@/pages/Rule'))
+  },
+  {
     path: '/lounge',
     exact: true,
     element: loadable(() => import('@/pages/Lounge'))

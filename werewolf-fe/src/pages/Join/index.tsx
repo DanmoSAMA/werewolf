@@ -13,10 +13,6 @@ function Join() {
           密码：
           <input type="text" className={'join-form-input'} placeholder="可选" />
         </div>
-        <div className={'join-form-nickname'}>
-          昵称：
-          <input type="text" className={'join-form-input'} />
-        </div>
         <div className={'join-form-submit'}>确认加入</div>
       </div>
     </div>

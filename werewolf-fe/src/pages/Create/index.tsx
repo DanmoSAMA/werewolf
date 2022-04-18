@@ -26,11 +26,11 @@ function Create() {
       </div>
       <div className={'create-form'}>
         <div className={'create-form-nickname'}>
-          你的昵称：
+          房间名称：
           <input
             type="text"
             className={'create-form-input'}
-            placeholder="请输入昵称"
+            placeholder="请输入名称"
             onChange={(e) => {
               setNickname(e.target.value)
             }}
